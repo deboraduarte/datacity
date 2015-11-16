@@ -1,0 +1,218 @@
+.home{
+  background-image: url('/cityDraw.jpg');
+  background-repeat: no-repeat;
+  height: 30em;
+  background-position: right top;
+}
+.color-bar{
+  background-color: #1C4C71;
+  height: 0.5em;
+}
+.menu li{
+  list-style-type: none;
+}
+.menu{
+  padding-top: 2em;
+  background-color: #ecf0f1;
+  height: 6em;
+
+}
+.menu a{
+  color: #7f8c8d;
+  font-size: 1.2em;
+}
+.title-banner{
+  font-size: 2em;
+  margin-top: 2em;
+  color: #8e44ad;
+}
+.article-banner{
+  font-size: 1.1em;
+  color: #473840;
+}
+.button-register-div{
+  margin-top: 6em;
+}
+.button-register{
+  background-color: #2980b9;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  color: #fff;
+  font-size: 2em;
+}
+.button-register:hover{
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+}
+.what-is{
+  height: 20em;
+  background-color: #c0392b;
+}
+.what-is header{
+  margin-top: 1em;
+  color: #ecf0f1;
+  font-size: 2.5em;
+}
+.what-is div{
+  background-image: url('network1.png');
+  height: 20em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.what-is article{
+  margin-top: 1em;
+  color: #ecf0f1;
+}
+.how-to-join{
+  background-color: #bdc3c7;
+  height: 20em;
+}
+.how-to-join header{
+  color: #16a085;
+  font-size: 2em;
+  margin-top: 2em;
+}
+.how-to-join article{
+  color: #34495e;
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+.how-to-join a{
+  background-color: #2980b9;
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  color: #fff;
+  font-size: 2em;
+}
+.register{
+}
+.register header{
+  background-color: #1abc9c;
+  height: 2em;
+  color: #ecf0f1;
+  font-size: 3em;
+  padding-top: 0.2em;
+}
+.register article{
+  height: 30em;
+  font-size: 2em;
+  background-image: url('/cityDraw.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.register article input{
+  margin-top: 0.5em;
+}
+.register article label{
+  margin-top: 0.5em;
+}
+.register .button-register{
+  font-size: 0.8em !important;
+  margin-top: 0.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+@media only screen and (max-width:500px){
+  .menu{
+    height: 34em !important;
+  }
+  .menu a{
+    font-size: 2em;
+  }
+  .menu li{
+    padding-top: 4.5em !important;
+    padding-bottom: 4.5em;
+    border-top: 0.1em solid black;
+  }
+  .menu li:first-child{
+    border-top: none;
+    padding-top: 2em !important;
+  }
+  .home{
+    height: 40em;
+    background-size: 30em;
+    background-position: bottom;
+  }
+  .what-is{
+    height: 30em;
+  }
+  .how-to-join{
+    height: 23em;
+  }
+  .how-to-join header{
+    margin-top: 1em;
+  }
+  .how-to-join article{
+    margin-top: 1em;
+  }
+  .how-to-join a{
+    margin-top: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top:  0.5em;
+    padding-bottom:  0.5em;
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (min-width:500px) and (max-width:1000px){
+  .menu{
+    height: 34em !important;
+  }
+  .menu a{
+    font-size: 3em !important;
+    text-align: center;
+  }
+  .menu li{
+    padding-top: 2.5em !important;
+    padding-bottom: 3.5em;
+  }
+  .menu li:first-child{
+    border-top: none;
+    padding-top: 2em !important;
+  }
+  .home{
+    height: 30em;
+    background-size: 50em;
+    background-position: right;
+  }
+  .what-is{
+    height: 20em;
+  }
+  .how-to-join{
+    height: 23em;
+  }
+  .how-to-join header{
+    margin-top: 1em;
+  }
+  .how-to-join article{
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .how-to-join article ul{
+    height: 6em;
+  }
+  .how-to-join a{
+    margin-top: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top:  0.5em;
+    padding-bottom:  0.5em;
+    font-size: 1.8em;
+  }
+  .register .button-register{
+    font-size: 1em !important;
+    margin-top: 0.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+  }
+}
